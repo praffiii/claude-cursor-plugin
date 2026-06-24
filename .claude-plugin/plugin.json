@@ -1,0 +1,8 @@
+{
+  "name": "cursor",
+  "version": "1.0.0-praffii.1",
+  "description": "Use Cursor from Claude Code to review code or delegate tasks.",
+  "author": {
+    "name": "praffii"
+  }
+}
