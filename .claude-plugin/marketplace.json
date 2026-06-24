@@ -1,0 +1,23 @@
+{
+  "name": "praffii",
+  "owner": {
+    "name": "praffii",
+    "url": "https://github.com/praffiii"
+  },
+  "metadata": {
+    "description": "Claude Code plugin: Claude orchestrates, Cursor executes.",
+    "version": "1.0.0-praffii.1"
+  },
+  "plugins": [
+    {
+      "name": "cursor",
+      "description": "Use Cursor from Claude Code to review code or delegate tasks.",
+      "version": "1.0.0-praffii.1",
+      "author": {
+        "name": "praffii"
+      },
+      "source": "./plugins/cursor",
+      "strict": false
+    }
+  ]
+}

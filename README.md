@@ -72,6 +72,10 @@ Claude Code command/subagent
 
 Job state, hooks, and command UX are copied from the Codex plugin; only the runtime backend differs.
 
+## Repository layout
+
+This repo is a Claude Code **marketplace** (`/.claude-plugin/marketplace.json`) with the plugin under `plugins/cursor/`.
+
 ## Differences from Codex plugin
 
 | Codex | This plugin |
