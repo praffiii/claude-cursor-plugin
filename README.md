@@ -87,4 +87,5 @@ This repo is a Claude Code **marketplace** (`/.claude-plugin/marketplace.json`) 
 
 ## License
 
-MIT (derived from OpenAI Codex plugin structure)
+Licensed under the Apache License 2.0. This project is derived from the
+OpenAI Codex plugin structure; see `plugins/cursor/NOTICE` for attribution.
