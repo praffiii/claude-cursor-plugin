@@ -48,7 +48,7 @@ After editing plugin files, run `/reload-plugins` again.
 | Command | Purpose |
 | --- | --- |
 | `/cursor:rescue` | Delegate investigation or implementation to Cursor |
-| `/cursor:review` | Read-only git review via Cursor |
+| `/cursor:review-cursor` | Read-only git review via Cursor |
 | `/cursor:adversarial-review` | Adversarial design/implementation review |
 | `/cursor:status` | List or inspect jobs |
 | `/cursor:result` | Show finished job output |

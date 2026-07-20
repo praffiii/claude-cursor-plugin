@@ -152,7 +152,7 @@ function pushJobDetails(lines, job, options = {}) {
     lines.push(`  Result: /cursor:result ${job.id}`);
   }
   if (job.status !== "queued" && job.status !== "running" && job.jobClass === "task" && job.write && options.showReviewHint) {
-    lines.push("  Review changes: /cursor:review --wait");
+    lines.push("  Review changes: /cursor:review-cursor --wait");
     lines.push("  Stricter review: /cursor:adversarial-review --wait");
   }
   if (job.progressPreview?.length) {
