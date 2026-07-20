@@ -292,13 +292,13 @@ function buildStandardReviewTarget(target) {
 function validateStandardReviewRequest(target, focusText) {
   if (focusText.trim()) {
     throw new Error(
-      `\`/cursor:review\` now maps directly to the built-in reviewer and does not support custom focus text. Retry with \`/cursor:adversarial-review ${focusText.trim()}\` for focused review instructions.`
+      `\`/cursor:review-cursor\` now maps directly to the built-in reviewer and does not support custom focus text. Retry with \`/cursor:adversarial-review ${focusText.trim()}\` for focused review instructions.`
     );
   }
 
   const nativeTarget = buildStandardReviewTarget(target);
   if (!nativeTarget) {
-    throw new Error("This `/cursor:review` target is not supported by the built-in reviewer. Retry with `/cursor:adversarial-review` for custom targeting.");
+    throw new Error("This `/cursor:review-cursor` target is not supported by the built-in reviewer. Retry with `/cursor:adversarial-review` for custom targeting.");
   }
 
   return nativeTarget;

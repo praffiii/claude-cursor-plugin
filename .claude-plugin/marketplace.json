@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Claude Code plugin: Claude orchestrates, Cursor executes.",
-    "version": "1.0.0-praffii.1"
+    "version": "1.0.0-praffii.2"
   },
   "plugins": [
     {
       "name": "cursor",
       "description": "Use Cursor from Claude Code to review code or delegate tasks.",
-      "version": "1.0.0-praffii.1",
+      "version": "1.0.0-praffii.2",
       "author": {
         "name": "praffii"
       },

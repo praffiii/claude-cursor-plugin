@@ -39,10 +39,10 @@ Argument handling:
 - Do not strip `--wait` or `--background` yourself.
 - Do not weaken the adversarial framing or rewrite the user's focus text.
 - The companion script parses `--wait` and `--background`, but Claude Code's `Agent` background execution is what moves the visible subagent out of the main turn.
-- `/cursor:adversarial-review` uses the same review target selection as `/cursor:review`.
+- `/cursor:adversarial-review` uses the same review target selection as `/cursor:review-cursor`.
 - It supports working-tree review, branch review, and `--base <ref>`.
 - It does not support `--scope staged` or `--scope unstaged`.
-- Unlike `/cursor:review`, it can still take extra focus text after the flags.
+- Unlike `/cursor:review-cursor`, it can still take extra focus text after the flags.
 
 Foreground flow:
 - Run:
